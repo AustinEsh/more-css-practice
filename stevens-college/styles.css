@@ -1,1 +1,41 @@
-/* Add your CSS here */
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 10em;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3em;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.button {
+    background-color: rgb(161, 0, 0);
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px
+}
+
+p {
+    font-size: 2em;
+}
