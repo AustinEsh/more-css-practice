@@ -1,1 +1,44 @@
-/* Add your CSS here */
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(187, 149, 77);
+}
+
+header > p {
+    color: rgb(49, 78, 49);
+}
+
+header {
+    margin: 30px;
+}
+
+h2 {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.categories > div {
+    width: 20%;
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div > a {
+    text-decoration: none;
+}

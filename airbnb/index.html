@@ -1,28 +1,84 @@
-<!-- Markup this content with HTML here -->
-[Page Title: Airbnb]
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Airbnb</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
 
+    <body>
+        <h1>
+            Book unique homes and experiences.
+        </h1>
 
-Book unique homes and experiences.
+        <form class="input">
+            <div>
+                <label for="where">
+                    Where
+                </lable>
 
+                <input type="text" id="where">
+            </div>
 
-Where
-[Text Input]
+            <div id="check-in-out">
+                <div class="dates">
+                    <label for="check-in">
+                        Check In
+                    </label>
 
-Check In
-[Date Input]
+                    <input type="date" id="check-in">
+                </div>
+                    
+                <div class="dates">
+                    <label for="check-out">
+                        Check Out
+                    </label>
 
-Check Out
-[Date Input]
+                    <input type="date" id="check-out">
+                </div>
+            </div>
 
-Guests
-[Number Input]
+            <div>
+                <label for="guests">
+                    Guests
+                </label>
 
-Search
-[Submit Input]
+                <input type="number" id="guests">
+            </div>
 
+            <button type="button" class="search">
+                Search
+            </button>
+        </form>
 
-Explore Airbnb
-Homes
-Experiences
-Restaurants
+        <h2>
+            Explore Airbnb
+        </h2>
+        <div class="explore">
+            <div class="explore-item">
+                <img src="https://via.placeholder.com/140x100" alt="Homes">
+                
+                <a href="#">
+                    Homes
+                </a>
+            </div>
 
+            <div class="explore-item">
+                <img src="https://via.placeholder.com/140x100" alt="Experiences">
+                
+                <a href="#">
+                    Experiences
+                </a>
+            </div>
+
+            <div class="explore-item">
+                <img src="https://via.placeholder.com/140x100" alt="Restaurants">
+                
+                <a href="#">
+                    Restaurants
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
